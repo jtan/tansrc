@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.36 sec <<< FAILURE!
+testMergeSort(ArrayUtilTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at CustomArrayUtil.merge(CustomArrayUtil.java:105)
+	at CustomArrayUtil.mergeSort(CustomArrayUtil.java:89)
+	at CustomArrayUtil.mergeSort(CustomArrayUtil.java:88)
+	at CustomArrayUtil.mergeSort(CustomArrayUtil.java:11)
+	at ArrayUtilTest.testMergeSort(ArrayUtilTest.java:8)
+testMergeSort(utils.CustomArrayUtilTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<5>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at utils.CustomArrayUtilTest.assertEqualsArray(CustomArrayUtilTest.java:22)
+	at utils.CustomArrayUtilTest.testMergeSort(CustomArrayUtilTest.java:15)
