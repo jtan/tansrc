@@ -32,6 +32,7 @@ public class UltraTicTacToe {
     }
 
     public void setBoard(int[][] board) {
+        setSize(board.length);
         this.board = board;
     }
 

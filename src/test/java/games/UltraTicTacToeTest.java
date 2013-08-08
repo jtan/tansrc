@@ -41,12 +41,20 @@ public class UltraTicTacToeTest {
                 {1, -1, 1}
         };
 
+        int[][] board6 = {
+                {0, 1, 0, -1},
+                {0, 0, -1, 0},
+                {0, -1, 1, 0},
+                {-1, 1, 1, 1}
+        };
+
         UltraTicTacToe game = new UltraTicTacToe(board1);
         assertBoard(game, board1, true);
         assertBoard(game, board2, true);
         assertBoard(game, board3, true);
         assertBoard(game, board4, true);
         assertBoard(game, board5, false);
+        assertBoard(game, board6, true);
     }
 
     private void assertBoard(UltraTicTacToe game, int[][] board, boolean expected) {
