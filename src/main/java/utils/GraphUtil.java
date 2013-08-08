@@ -5,6 +5,9 @@ import java.util.LinkedList;
 
 /**
  * Utility to work with a custom graph.
+ *
+ * @author jtan
+ * @version 8/8/13
  */
 public class GraphUtil {
 

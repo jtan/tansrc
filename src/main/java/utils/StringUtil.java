@@ -2,6 +2,11 @@ package utils;
 import java.lang.NullPointerException;
 import java.util.Arrays;
 
+/**
+ * @author jtan
+ * @version 8/8/13
+ */
+
 public class StringUtil {
 
     /**

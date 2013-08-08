@@ -2,6 +2,9 @@ package utils;
 
 /**
  *  Utility to work with binary trees.
+ *
+ * @author jtan
+ * @version 8/8/13
  */
 
 public class BinaryTreeUtil {

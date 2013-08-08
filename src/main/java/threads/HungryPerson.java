@@ -1,5 +1,10 @@
 package threads;
 
+/**
+ * @author jtan
+ * @version 8/8/13
+ */
+
 public class HungryPerson {
     private int bites;
     private Chopstick left, right;

@@ -3,6 +3,11 @@ package utils;
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * @author jtan
+ * @version 8/8/13
+ */
+
 public class Node {
 
     private int data;
